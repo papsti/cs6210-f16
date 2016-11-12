@@ -24,6 +24,7 @@
 -
   date: 2016-09-02
   info: Sensitivity and conditioning
+  notes: 2016-09-02.pdf
 #
 # ==================
 # Week 3
@@ -34,9 +35,11 @@
 -
   date: 2016-09-07
   info: Floating point and error analysis basics
+  notes: 2016-09-07.pdf
 -
   date: 2016-09-09
   info: Building blocks for error analysis
+  notes: 2016-09-09.pdf
 #
 # ==================
 # Week 4
@@ -45,26 +48,32 @@
   date: 2016-09-12
   info: Introduction to Gaussian elimination
   hw: HW 1
+  notes: 2016-09-12.pdf
 -
   date: 2016-09-14
-  info: Schur complements and blocking
+  info: Schur complements, blocking, and pivoting
+  notes: 2016-09-14.pdf
 -
   date: 2016-09-16
-  info: Backward error, pivoting, iterative refinement
+  info: Backward error, iterative refinement
+  notes: 2016-09-16.pdf
 #
 # ==================
 # Week 5
 #
 -
   date: 2016-09-19
-  info: Condition estimation and scaling
+  info: Condition estimation, scaling, symmetric matrices
+  notes: 2016-09-19.pdf
 -
   date: 2016-09-21
   info: Structured linear systems
+  notes: 2016-09-21.pdf
 -
   date: 2016-09-23
   info: Matrices and graphs; nested dissection
   hw: HW 2
+  notes: 2016-09-23.pdf
 #
 # ==================
 # Week 6
@@ -72,25 +81,31 @@
 -
   date: 2016-09-26
   info: Introduction to least squares
+  notes: 2016-09-26.pdf
 -
   date: 2016-09-28
   info: Sensitivity of least squares
+  notes: 2016-09-28.pdf
 -
   date: 2016-09-30
   info: Householder, Givens, and QR
+  notes: 2016-09-30.pdf
 #
 # ==================
 # Week 7
 #
 -
   date: 2016-10-03
-  info: Rank-deficiency and regularization
+  info: Constrained, weighted, and sparse problems
+  notes: 2016-10-03.pdf
 -
   date: 2016-10-05
-  info: Constrained, weighted, and sparse problems
+  info: Rank-deficiency and regularization
+  notes: 2016-10-05.pdf
 -
   date: 2016-10-07
-  info: Regression beyond least squares
+  info: Regularization choices; matrix nearness problems
+  notes: 2016-10-07.pdf
   hw: HW 3
 #
 # ==================
@@ -102,10 +117,11 @@
 -
   date: 2016-10-12
   info: Introduction to eigenvalue problems
+  notes: 2016-10-12.pdf
 -
   date: 2016-10-14
   info: Perturbation theory
-  hw: Midterm
+  notes: 2016-10-14.pdf
 #
 # ==================
 # Week 9
@@ -113,13 +129,17 @@
 -
   date: 2016-10-17
   info: Power iterations
+  hw: Midterm
+  notes: 2016-10-17.pdf
 -
   date: 2016-10-19
-  info: Power iterations
+  info: Subspace iterations and QR
   travel: Bindel at Argonne
+  notes: 2016-10-19.pdf
 -
   date: 2016-10-21
-  info: Hessenberg and real Schur form
+  info: Hessenberg QR
+  notes: 2016-10-21.pdf
 #
 # ==================
 # Week 10
@@ -127,50 +147,58 @@
 -
   date: 2016-10-24
   info: Practical QR
+  notes: 2016-10-24.pdf
 -
   date: 2016-10-26
-  info: Intro to symmetric eigenproblems
+  info: Theory for symmetric eigenproblems and SVD
+  notes: 2016-10-26.pdf
 -
   date: 2016-10-28
-  info: Symmetric power iterations and QR
-  hw: HW 4
+  info: Theory for symmetric eigenproblems and SVD
+  notes: 2016-10-28.pdf
 #
 # ==================
 # Week 11
 #
 -
   date: 2016-10-31
-  info: Other methods
+  info: Solver ideas for SEP and SVD
+  hw: HW 4
+  notes: 2016-10-31.pdf
 -
   date: 2016-11-02
-  info: Computing the SVD
+  info: Other eigenvalue problems
+  notes: 2016-11-02.pdf
 -
   date: 2016-11-04
-  info: Symmetric generalized problems
+  info: Model problems for iterative methods
+  notes: 2016-11-04.pdf
 #
 # ==================
 # Week 12
 #
 -
   date: 2016-11-07
-  info: Lanczos and connections
+  info: Splittings, sweeps, and stationary iterations
+  notes: 2016-11-07.pdf
 -
   date: 2016-11-09
-  info: Lanczos and connections
+  info: Approximation from subspaces
+  notes: 2016-11-09.pdf
 -
   date: 2016-11-11
-  info: Lanczos and connections
-  hw: HW 5
+  info: Krylov subspaces
 #
 # ==================
 # Week 13
 #
 -
   date: 2016-11-14
-  info: Arnoldi and company
+  info: Lanczos, Arnoldi, and connections
+  hw: HW 5
 -
   date: 2016-11-16
-  info: Classical iterations
+  info: Lanczos, Arnoldi, and connections
 -
   date: 2016-11-18
   info: Conjugate gradients
@@ -193,11 +221,12 @@
 #
 -
   date: 2016-11-28
-  info: Preconditioners
+  info: The preconditioning landscape
 -
   date: 2016-11-30
-  info: Multigrid
+  info: Review
 -
   date: 2016-12-02
-  info: Review
+  info: No lecture
+  travel: Bindel at NYU
   hw: HW 6
